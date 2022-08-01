@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <title>Screenflix - Watch TV Show Online</title>
+
+</head>
+
+
+<body class="bg-black">
+
+    <!-- Header -->
+    <header class="border-b-8 border-anthracite">
+
+        <div class="bg-main bg-cover h-80v relative gap-4">
+
+            <div class="grid grid-cols-2 py-6 px-8 text-white place-content-between">
+
+                <div><img src="assets/img/screenflix.png" alt="logo screenflix" class="md:w-3/12 w-6/12"></div>
+
+                <div class="flex justify-end items-center">
+
+                    <div class="flex justify-center">
+
+                        <div class="dropdown relative">
+                            <button
+                                class="dropdown-toggle p-1 border border-white text-white font-medium text-md rounded transition flex items-center"
+                                type="button" id="languages1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-globe"></i>&nbsp;English&nbsp;
+                                <i class="fas fa-sort-down"></i>
+                            </button>
+                            <ul id="languages1Links"
+                                class="absolute text-base list-none hidden w-full text-center text-white bg-gray-400"
+                                aria-labelledby="languages1">
+                                <li>
+                                    <a class="text-sm block w-full text-white hover:bg-blue-500" href="#">English</a>
+                                </li>
+                                <li>
+                                    <a class="text-sm block w-full text-white hover:bg-blue-500"
+                                        href="index.html">Français</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <a href="en/login.html">
+                        <button
+                            class="border border-red-600 rounded bg-red-600 ml-3 text-white font-medium text-md flex items-center py-1 px-3 "
+                            type="button">
+                            Sign&nbsp;In
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="text-white absolute w-full md:inset-y-1/3 inset-y-1/4">
+                <h1 class="text-center font-bold md:text-6xl text-3xl my-3 md:w-2/5 mx-auto md:px-0 px-6">Unlimited movies, TV shows,
+                    and more.</h1>
+                <p class="text-center font-bold md:text-2xl text-xl my-3">Watch anywhere. Cancel anytime.</p>
+                <p class="text-center font-bold md:text-2xl text-lg md:px-0 px-6">Ready to watch? Enter your email to create or
+                    restart your membership.</p>
+                <div class="flex flex-col justify-center sm:flex-row items-center mt-6 space-y-4 sm:space-y-0">
+                    <div class="relative md:h-20 h-12 md:w-4/12 w-10/12">
+                        <input type="mail" id="register1"
+                            class="block px-2.5 pb-2.5 pt-5 h-full w-full text-gray-900 bg-gray-50 dark:bg-gray-700 border-0 border-white appearance-none focus:outline-none peer"
+                            placeholder=" " />
+                        <label for="register1"
+                            class="absolute text-sm md:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-4 md:top-6 z-10 origin-[0] left-5 md:peer-focus:font-bold peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">
+                            Email adress</label>
+                    </div>
+                    <button
+                        class="border border-red-600 bg-red-600 px-6 font-bold md:text-2xl md:h-20 h-10 md:rounded-none">
+                        Get Started&nbsp;<i class="fas fa-chevron-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- Description -->
+    <main>
+        <div class="card">
+            <div class="order-1 card-content">
+                <h2>Enjoy Screenflix on your TV.</h2>
+                <p class="card-text">Watch Screenflix on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+                    players, and more.</p>
+            </div>
+            <div class="order-2 card-image">
+                <img src="assets/img/tv.gif" alt="">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="order-1 md:order-2 card-content">
+                <h2>Download your shows to watch offline.</h2>
+                <p class="card-text">Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="order-2 md:order-1 card-image relative">
+                <img src="assets/img/en_mobile.gif" alt="">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="order-1 card-content">
+                <h2>Watch everywhere.</h2>
+                <p class="card-text">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without
+                    paying more.</p>
+            </div>
+            <div class="order-2 card-image">
+                <img src="assets/img/device.gif" alt="">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="order-1 md:order-2 card-content">
+                <h2>Create profiles for kids.</h2>
+                <p class="card-text">Send kids on adventures with their favorite characters in a space made just for
+                    them—free with your membership.</p>
+            </div>
+            <div class="order-2 md:order-1 card-image relative">
+                <img src="assets/img/kids.png" alt="">
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FAQ -->
+    <section class="border-b-8 border-anthracite md:py-20 py-14">
+
+        <h2 class="md:mb-16">Frequently Asked Questions</h2>
+
+        <div class="mx-auto max-w-screen-md my-4">
+            <div class="accordion">
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">
+                        What is Screenflix ?
+                        <i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="accordion-answer" style="display:none">
+                        <div class="accordion-content">
+                            <div class="accordion-text">
+                                <p>Screenflix is a site that looks like the visual of the Netflix page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h3 class="accordion-question">
+                        How was Screenflix created ?
+                        <i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="accordion-answer" style="display:none">
+                        <div class="accordion-content">
+                            <div class="accordion-text">
+                                <p>Screenflix was created using : HTML, CSS, JQuery and TailwindCSS.</p>
+                                <p>The images are from Giphy and Pixabay. They were retouched via Canva and GIMP.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mx-auto max-w-screen-md mt-14">
+
+            <p class="text-white mb-4 text-center text-lg">Ready to watch? Enter your email to create or restart your
+                membership.
+            </p>
+
+            <div class="text-white w-full">
+
+                <div class="text-white">
+                    <div class="flex flex-col justify-center sm:flex-row items-center mt-12 space-y-4 sm:space-y-0">
+                        <div class="relative md:h-16 h-12 md:w-8/12 w-10/12">
+                            <input type="text" id="register2"
+                                class="block px-2.5 pb-2.5 pt-5 h-full w-full text-gray-900 bg-gray-50 dark:bg-gray-700 border-0 border-white appearance-none focus:outline-none peer"
+                                placeholder=" " />
+                            <label for="register2"
+                                class="absolute text-sm md:text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-4 md:top-5 z-10 origin-[0] left-5 md:peer-focus:font-bold peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4">Email adress</label>
+                        </div>
+                        <button
+                            class="border border-red-600 bg-red-600 px-6 md:px-0 font-bold md:text-2xl md:h-16 h-10 md:rounded-none md:w-4/12">
+                            Get Started&nbsp;<i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-anthracite text-gray-500">
+        <div class="mx-auto max-w-screen-lg my-4 p-10">
+
+            <p class="font-bold mb-3">Questions ?</p>
+
+            <div class="grid md:grid-cols-4 grid-cols-2">
+                <div class="my-1">
+                    <a href="https://www.linkedin.com/in/maximiliengout/" target="_blank"
+                        class="hover:underline">LinkedIn</a>
+                </div>
+                <div class="my-1">
+                    <a href="mailto:maximiliengout@laposte.net" target="_blank" class="hover:underline">Mail</a>
+                </div>
+                <div class="my-1">
+                    <a href="https://maximiliengout.github.io/" target="_blank" class="hover:underline">Digital
+                        Resume</a>
+                </div>
+                <div class="my-1">
+                    <a href="https://github.com/maximiliengout" target="_blank" class="hover:underline">Github</a>
+                </div>
+            </div>
+
+            <div class="dropdown relative my-4">
+                <button
+                    class="dropdown-toggle py-3 px-4 border border-anthracite text-white font-medium text-md rounded shadow-md transition flex items-center whitespace-nowrap"
+                    type="button" id="languages2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-globe"></i>&nbsp;English&nbsp;
+                    <i class="fas fa-sort-down"></i>
+                </button>
+                <ul id="languages2Links"
+                    class="dropdown-menu min-w-max absolute text-base z-50 float-left list-none shadow-lg hidden m-0 bg-clip-padding border-none text-center text-white bg-gray-900"
+                    aria-labelledby="languages2">
+                    <li>
+                        <a class="dropdown-item text-sm font-normal block w-full whitespace-nowrap bg-transparent  text-white hover:bg-blue-500 px-10"
+                            href="#">English</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item text-sm font-normal block w-full whitespace-nowrap bg-transparent  text-white  hover:bg-blue-500 px-10"
+                            href="index.html">Français</a>
+                    </li>
+                </ul>
+            </div>
+
+            <p>ScreenFlix France</p>
+
+        </div>
+    </footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/dfdc9cd89e.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
